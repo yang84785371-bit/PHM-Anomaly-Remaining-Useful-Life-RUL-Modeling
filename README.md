@@ -121,13 +121,12 @@ Observation:
 ---
 
 ## 5. Health Degradation Curve
-
+<img width="1280" height="960" alt="health_curve_unit_compare_with_truth" src="https://github.com/user-attachments/assets/5a4a2ba5-90aa-4cbb-92e6-8779d0e53961" />
 A normalized health score (0 to 1) is derived from RUL:
 
 * health(t) = (RUL(t) − min_RUL) / (max_RUL − min_RUL + eps)
 
 The figure artifacts/health_curve_unit_compare_with_truth.png contains three curves:
-<img width="1280" height="960" alt="health_curve_unit_compare_with_truth" src="https://github.com/user-attachments/assets/dd1847e6-9b08-4a6d-9377-99be76778410" />
 * True health curve (from true RUL)
 * RF-predicted health curve
 * XGB-predicted health curve
